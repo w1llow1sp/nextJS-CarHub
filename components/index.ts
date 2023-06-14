@@ -7,7 +7,7 @@ import SearchBar from '@/components/SearchBar';
 import SearchManufacturer from '@/components/SearchManufacture';
 import CarCard from '@/components/CarCard';
 import CarDetails from '@/components/CarDetails';
-
+import ShowMore from '@/components/ShowMore';
 
 
 export {
@@ -19,5 +19,6 @@ export {
     CustomFilter,
     SearchManufacturer,
     CarCard,
-    CarDetails
+    CarDetails,
+    ShowMore
 }
