@@ -5,7 +5,7 @@ import {FilterProps} from '@/types';
 
 
 
-export default async function Home({searchParams}:FilterProps) {
+export default async function Home({searchParams}) {
     const allCars = await fetchCars({
         manufacturer:searchParams.manufacturer || '',
         year: searchParams.year || 2020,
