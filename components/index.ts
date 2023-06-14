@@ -5,6 +5,8 @@ import Navbar from '@/components/Navbar';
 import CustomFilter from '@/components/CustomFilter';
 import SearchBar from '@/components/SearchBar';
 import SearchManufacturer from '@/components/SearchManufacture';
+import CarCard from '@/components/CarCard';
+import CarDetails from '@/components/CarDetails';
 
 
 export {
@@ -14,5 +16,7 @@ export {
     Navbar,
     SearchBar,
     CustomFilter,
-    SearchManufacturer
+    SearchManufacturer,
+    CarCard,
+    CarDetails
 }
